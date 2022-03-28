@@ -11,7 +11,6 @@
   inputs.src-mustache-master.ref   = "refs/heads/master";
   inputs.src-mustache-master.owner = "soasme";
   inputs.src-mustache-master.repo  = "nim-mustache";
-  inputs.src-mustache-master.dir   = "";
   inputs.src-mustache-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
